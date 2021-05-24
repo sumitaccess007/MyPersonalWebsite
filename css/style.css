@@ -1,0 +1,171 @@
+body {
+    background-color: #e4efe7;
+    margin: 0px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/********************* Generic CSS Styles ****************************/
+h1{
+    color: #194350;
+    font-family: 'Sacramento', cursive;
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-block-end: 0;
+}
+
+hr{
+    border-color: #6daec2;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 3px;
+    width: 5vw;
+    margin: 100px auto 100px auto;
+}
+
+/********************* Top Container ****************************/
+.top-container {
+    background-color: #9bcbee;
+    position: relative;
+    padding-top: 100px;
+}
+
+/*** Sub-Title ***/
+.sub-title{
+    color: #273f4b;
+    font-family: 'Merienda One', cursive;
+    font-size: 2vw;
+    margin-block-start: 0;
+}
+
+.first-cloud{
+    width: 15%;
+    position: absolute;
+    right: 250px;
+    top: 40px
+}
+
+.second-cloud{
+    position: absolute;
+    width: 20%;
+    left: 200px;
+    bottom: 550px
+}
+
+.mountains{
+    width: 50%;
+}
+
+
+/********************* Middle Container ****************************/
+.middle-container{
+    background-color: #e4efe7;
+    margin: 100px 0;
+}
+
+.profile{
+}
+
+.profile-photo{
+    width: 16vw;
+}
+
+.hello{
+    color: #194350;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3vw;
+}
+
+.bio{
+    color: #0e272e;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+    margin: auto;
+    width: 40%;
+}
+
+.skill-row{
+    width: 60%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.java{
+    float: left;
+    margin-right: 25px;
+    width: 20%;
+}
+
+.springboot{
+    float: right;
+    margin-left: 25px;
+    width: 20%;
+}
+
+.contact-me{
+    color: #194350;
+    /* color: #185adb; */
+}
+
+.contact-message{
+    width: 40%;
+    margin: 30px auto 60px auto;
+}
+
+.button {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/********************* Bottom Container ****************************/
+.bottom-container{
+    background-color: #9bcbee;
+    padding: 20px 0 16px;
+}
+
+.social-media{
+    color: #194350;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-media:hover{
+    color: #EAF6F6;
+}
+
+.copyright-message{
+    color: #194350;
+    font-size: 0.75rem;
+    padding: 20px 0 10px 0;
+}
+
+.copyright-message:hover{
+    color: #EAF6F6;
+}
